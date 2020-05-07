@@ -1,0 +1,36 @@
+.menu div {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(211, 78, 60, 0.651);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.funny, span {
+  font-weight: bold;
+}
+
+.menu div {
+  background-color: rgba(51, 166, 201, 0.342);
+  border: blue 1px dotted;
+}
+.menu div a {
+  color: rgba(211, 78, 60, 0.651);
+  text-decoration: none;
+}
+.menu div a:hover {
+  color: rgba(211, 78, 60, 0.651);
+  text-decoration: overline wavy;
+}
+
+.row {
+  margin: 5px;
+}
+
+.funny {
+  font-style: oblique;
+  color: orangered;
+}
+
+/*# sourceMappingURL=style1.css.map */
