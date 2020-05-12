@@ -1,3 +1,15 @@
 #img_dogs {
     height: 200px;
 }
+
+
+table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}

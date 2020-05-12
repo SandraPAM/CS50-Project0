@@ -22,11 +22,6 @@ $font1-color :rgba(211, 78, 60, 0.651);
 
         a {
             color: $font1-color;
-            text-decoration: none;
-        }
-        a:hover {
-            color: $font1-color;
-            text-decoration: overline wavy;
         }
     }
 }
