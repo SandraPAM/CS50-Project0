@@ -1,0 +1,31 @@
+$font1-color :rgba(211, 78, 60, 0.651);
+
+
+#btn_home {
+    margin: auto;
+    margin-top: 0px;
+
+    color: $font1-color;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    color: $font1-color !important;
+
+    a {
+        color: $font1-color;
+    }
+
+    a:hover {
+        color: $font1-color;
+    }
+}
+
+footer:hover{
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+

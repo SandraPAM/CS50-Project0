@@ -1,0 +1,26 @@
+#btn_home {
+  margin: auto;
+  margin-top: 0px;
+  color: rgba(211, 78, 60, 0.651);
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  color: rgba(211, 78, 60, 0.651) !important;
+}
+footer a {
+  color: rgba(211, 78, 60, 0.651);
+}
+footer a:hover {
+  color: rgba(211, 78, 60, 0.651);
+}
+
+footer:hover {
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style_general.css.map */
