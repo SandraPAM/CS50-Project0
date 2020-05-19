@@ -3,6 +3,11 @@
   margin-top: 0px;
   color: rgba(211, 78, 60, 0.651);
 }
+@media (max-width: 576px) {
+  #btn_home {
+    margin-bottom: 10px;
+  }
+}
 
 footer {
   width: 100%;
