@@ -1,18 +1,13 @@
-$font1-color :rgba(211, 78, 60, 0.651);
+$font_color_1 :rgba(211, 78, 60, 0.651);
 
 %item {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: $font1-color;
+    color: $font_color_1;
     font-weight: bold;
     text-align: center;
     padding: 10px;
 }
-
-%bold {
-    font-weight: bold;
-}
-
 
 .menu {
     div {
@@ -21,13 +16,18 @@ $font1-color :rgba(211, 78, 60, 0.651);
         border:blue 1px dotted;
 
         a {
-            color: $font1-color;
+            color: $font_color_1;
         }
     }
 }
 
 .row {
     margin: 5px;
+}
+
+
+%bold {
+    font-weight: bold;
 }
 
 span {
@@ -37,9 +37,9 @@ span {
 .funny {
     @extend %bold;
     font-style: oblique;
-    color: orangered;
+    color: $font_color_1;
 }
 
 #img_dogs {
-    height: 200px;
+    height: 400px;
 }

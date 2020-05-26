@@ -1,11 +1,31 @@
-$font1-color :rgba(211, 78, 60, 0.651);
+//Variables
+$font_color_1 :rgba(211, 78, 60, 0.651);
+$round_border_size_1: 1rem;
 
 
+//Classes
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded-left {
+    border-top-left-radius: $round_border_size_1!important;
+    border-bottom-left-radius: $round_border_size_1!important;
+}
+
+.rounded-right {
+    border-top-right-radius: $round_border_size_1!important;
+    border-bottom-right-radius: $round_border_size_1!important;
+}
+
+//Elements Style
 #btn_home {
     margin: auto;
     margin-top: 0px;
 
-    color: $font1-color;
+    color: $font_color_1;
 
     @media (max-width: 576px){
         margin-bottom: 10px;
@@ -16,14 +36,14 @@ footer {
     width: 100%;
     text-align: center;
     margin: 20px;
-    color: $font1-color !important;
+    color: $font_color_1 !important;
 
     a {
-        color: $font1-color;
+        color: $font_color_1;
     }
 
     a:hover {
-        color: $font1-color;
+        color: $font_color_1;
     }
 }
 

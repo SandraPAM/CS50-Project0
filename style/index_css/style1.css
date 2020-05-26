@@ -7,10 +7,6 @@
   padding: 10px;
 }
 
-.funny, span {
-  font-weight: bold;
-}
-
 .menu div {
   background-color: rgba(51, 166, 201, 0.342);
   border: blue 1px dotted;
@@ -23,13 +19,17 @@
   margin: 5px;
 }
 
+.funny, span {
+  font-weight: bold;
+}
+
 .funny {
   font-style: oblique;
-  color: orangered;
+  color: rgba(211, 78, 60, 0.651);
 }
 
 #img_dogs {
-  height: 200px;
+  height: 400px;
 }
 
 /*# sourceMappingURL=style1.css.map */
