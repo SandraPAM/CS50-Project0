@@ -1,34 +1,37 @@
+@use 'main';
+
 //Variables
 $font_color_1 :rgba(211, 78, 60, 0.651);
-$round_border_size_1: 1rem;
-
 
 //Classes
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
-.rounded-left {
-    border-top-left-radius: $round_border_size_1!important;
-    border-bottom-left-radius: $round_border_size_1!important;
-}
 
-.rounded-right {
-    border-top-right-radius: $round_border_size_1!important;
-    border-bottom-right-radius: $round_border_size_1!important;
+@mixin fa-xs(){
+    font-size: .75em;
 }
 
 //Elements Style
 #btn_home {
     margin: auto;
     margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     color: $font_color_1;
 
+    text-align: center;
+
     @media (max-width: 576px){
         margin-bottom: 10px;
+    }
+    @media (max-width: 768px){
+        @include fa-xs();
     }
 }
 

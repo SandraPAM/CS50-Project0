@@ -1,3 +1,21 @@
+.rounded-left {
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+}
+
+.rounded-right {
+  border-top-right-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+}
+
+@media (max-width: 576px) {
+  .menu div {
+    border-top-left-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+  }
+}
 .menu div {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -30,6 +48,10 @@
 
 #img_dogs {
   height: 400px;
+}
+
+.alert p {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style1.css.map */

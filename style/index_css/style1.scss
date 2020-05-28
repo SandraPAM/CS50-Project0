@@ -1,4 +1,16 @@
+@use '../main';
+
 $font_color_1 :rgba(211, 78, 60, 0.651);
+
+//Elements Style
+@media (max-width: 576px) {
+    .menu {
+        div {
+            @include main.rounded-left-custom();
+            @include main.rounded-right-custom();
+        }
+    }
+}
 
 %item {
     font-size: 20px;
@@ -42,4 +54,10 @@ span {
 
 #img_dogs {
     height: 400px;
+}
+
+.alert{
+    p {
+        text-align: center;
+    }
 }

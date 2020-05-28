@@ -1,0 +1,19 @@
+$round_border_size_1: 1rem;
+
+@mixin rounded-left-custom() {
+    border-top-left-radius: $round_border_size_1!important;
+    border-bottom-left-radius: $round_border_size_1!important;
+}
+
+@mixin rounded-right-custom() {
+    border-top-right-radius: $round_border_size_1!important;
+    border-bottom-right-radius: $round_border_size_1!important;
+}
+
+.rounded-left {
+    @include rounded-left-custom();
+}
+
+.rounded-right {
+    @include rounded-right-custom();
+}
